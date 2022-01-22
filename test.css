@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+*{
+box-sizing: border-box;
+margin:0;
+padding:0;
+font-family: 'poppins' ,sans-serif;
+}/*yraja3na a 0*/
+.menu {
+
+right: 0;
+width: 100%;
+min-height: 100vh;
+padding: 100px;
+display:flex;
+color:white;
+justify-content:space-between;
+align-items: flex-start;
+} 
+
+.menu video{
+    position:absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index:-4 ;
+}
+header{
+    display:flex;
+    justify-content:space-between;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: transparent;
+    z-index:10;
+   
+}
+.menu-header a{
+    text-decoration: none;
+    color:blue;
+    padding:20px;
+}
+.menu-header a:hover {
+    text-decoration:underline;
+    color:#00b39b;
+    border-radius:20px;
+} 
+#experience{
+    margin-top:50px;
+}
+h2{
+   
+    color:blue;
+}
+#projects{
+    margin-top:50px;
+}
+#skills{
+    margin-top:50px;
+}
+#education{
+    margin-top:50px;
+}
+#contact{
+    margin-top:50px;
+}
+.h1{
+    color:red;
+}
+.hh1{
+    color:coral;
+}
+.h2{
+    margin-top:40px;
+    color: red;
+}
+.hh2{
+   
+    color: coral;
+}
+.h3{
+    margin-top: 40px;
+    color: red;
+}
+.hh3{
+    color: coral;
+}
+.h4{
+    margin-top: 40px;
+    color:red;
+}
+.hh4{
+    color: coral;
+}
+.h5{
+    margin-top: 40px;
+    color: red;
+}
+.hh5{
+    color:coral;
+}
+#contact{
+    margin-top: 50px;
+}
